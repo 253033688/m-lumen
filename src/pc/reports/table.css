@@ -1,0 +1,116 @@
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse !important;
+}
+
+.table td,
+.table th {
+    background-color: transparent !important;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 2;
+    vertical-align: middle;
+}
+
+.table > thead > tr > th {
+    vertical-align: middle;
+    border-bottom: 2px solid #333333;
+}
+
+table {
+    font-size: 12px;
+    text-align: center;
+}
+
+tr:hover {
+    background: #eeeeee;
+}
+
+tr.even {
+    background: #eeeeee;
+}
+
+table a.btn {
+    display: inline-block;
+    padding: 0.5em 2em;
+    border: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #323C5C;
+    font-size: 14px;
+}
+
+table tr:hover a.btn {
+    background-color: #4B5984;
+}
+
+body .main .top {
+    padding-bottom: 20px;
+    text-align: right;
+    color: #555;
+}
+
+body .main .top input[type=search] {
+    box-sizing: border-box;
+    margin-right: 10px;
+    width: 350px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+body .main .top input[type=search]:focus {
+    border-color: #323C5C;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(50, 60, 92, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(50, 60, 92, .6);
+}
+
+.top .btn {
+    position: relative;
+    top: -1px;
+    height: 34px;
+    padding: 6px 20px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border: 1px solid #414D73;
+    border-radius: 4px;
+    font-family: Roboto-Regular, sans-serif;
+    color: #ffffff;
+    background: #414D73;
+    -webkit-appearance: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.top .btn:active {
+    background: #4B5984;
+}
+
+body .main .bottom {
+    padding-top: 40px;
+    text-align: center;
+}

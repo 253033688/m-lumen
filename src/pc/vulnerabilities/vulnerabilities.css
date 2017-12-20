@@ -1,0 +1,250 @@
+@import "../../common/pc/css/common.css";
+
+.main {
+    margin: 60px 0;
+}
+
+.banner {
+    background-color: #323C5C;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+}
+
+.banner {
+    background-image: url('../../common/pc/images/r2.png');
+}
+
+.banner .container {
+    padding-top: 68px;
+    height: 354px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.banner p.banner-title {
+    margin: 70px 0 20px 100px;
+    line-height: 1.1;
+    font-size: 40px;
+}
+
+.banner p.banner-desc {
+    margin: 20px 0 0 100px;
+    line-height: 1.1;
+    font-size: 18px;
+}
+
+.main {
+    padding: 60px 0;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+ul.content {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.content:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+}
+
+.article {
+    position: relative;
+}
+
+.article .left {
+    position: relative;
+    float: left;
+    padding-right: 2em;
+    width: 12%;
+    color: #B3B3B3;
+}
+
+.article .right {
+    position: relative;
+    float: left;
+    padding: 0 0 40px 3em;
+    width: 88%;
+    border-left: 1px solid #323C5C;
+}
+
+.article .left .day {
+    display: block;
+    font-size: 24px;
+    color: #333333;
+}
+
+.article .right .dot {
+    position: absolute;
+    left: -12px;
+    width: 24px;
+    height: 24px;
+    background-color: #323C5C;
+    border: 4px solid #8c91a3;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.article .right h3 {
+    margin: 0 0 1em 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.article .right .data {
+    margin-bottom: 1em;
+    font-size: 12px;
+    color: #B3B3B3;
+}
+
+.article .right .data span {
+    margin-right: 2em;
+}
+
+.article .right ul.article-desc {
+    margin-top: 2em;
+    padding-left: 20px;
+    font-family: Roboto-Light, sans-serif;
+}
+
+.article .right ul.article-desc li {
+    font-family: Roboto-Regular, sans-serif;
+    color: #000000;
+}
+
+.article .right ul.article-desc a {
+    color: #337ab7;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    padding: .5em 1.5em;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    white-space: nowrap;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    outline: 0;
+    -webkit-appearance: none;
+    user-select: none;
+    -webkit-transition: background-color 300ms ease-out, border-color 300ms ease-out;
+    transition: background-color 300ms ease-out, border-color 300ms ease-out;
+}
+
+.article .right a.btn {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    background: #323C5C;
+    border: 1px solid #323C5C;
+
+}
+
+.article .right a.btn:hover {
+    background: #4B5984;
+}
+
+.radius {
+    border-radius: 2px;
+}
+
+.btn-xs {
+    font-size: 1.2rem;
+}
+
+.page {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.page a,
+.page span {
+    display: inline-block;
+    margin-right: 1em;
+    padding: 0.25em 0.5em;
+    border-radius: 2px;
+    color: #323C5C;
+}
+
+.page a:hover {
+    color: #6f768c;
+}
+
+.page span.current {
+    color: #fff;
+    background-color: #323C5C;
+}
+
+.page a.current:hover {
+    background: #4B5984;
+}
+
+.page a.disabled,
+.page span.current.prev,
+.page span.current.prev:before,
+.page span.current.next,
+.page span.current.next:after {
+    color: #B3B3B3;
+    background-color: transparent;
+    cursor: not-allowed;
+}
+
+.page a.prev,
+.page span.prev,
+.page a.next,
+.page span.next {
+    position: relative;
+    padding: 0 1em;
+}
+
+.page a.prev:before,
+.page span.current.prev:before {
+    content: " ";
+    position: absolute;
+    top: 5px;
+    left: -0.5em;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-right: 5px solid;
+    border-right: 5px solid \9;
+    border-top: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+.page a.next:after,
+.page span.current.next:after {
+    content: " ";
+    position: absolute;
+    top: 5px;
+    right: -0.5em;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-left: 5px solid;
+    border-left: 5px solid \9;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}

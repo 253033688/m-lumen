@@ -1,0 +1,198 @@
+@import "../../common/pc/css/common.css";
+
+.banner {
+    background-color: #323C5C;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+}
+
+.banner {
+    background-image: url('../../common/pc/images/r1.png');
+}
+
+.banner .container {
+    padding-top: 68px;
+    height: 354px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.banner p.banner-title {
+    margin: 70px 0 20px 100px;
+    line-height: 1.1;
+    font-size: 40px;
+}
+
+.banner p.banner-desc {
+    margin: 20px 0 0 100px;
+    line-height: 1.1;
+    font-size: 18px;
+}
+
+h3.content-title {
+    margin: 0 auto 1em;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    /*text-align: center;*/
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #000000;
+}
+
+.main-desc {
+    margin: 1em auto;
+}
+
+.main-desc > span {
+    float: left;
+    padding: 0 10px;
+    min-width: 50%;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 12px;
+    opacity: 0.54;
+    color: #000000;
+}
+
+.timeline-content {
+    margin-top: 2em;
+    width: 75%;
+    font-family: Roboto-Light, sans-serif;
+}
+
+.timeline-content h3 {
+    margin: 1em auto;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+div.timeline-content p {
+    display: block;
+    margin: 4px 0;
+    padding: 0;
+    height: auto;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: Roboto-Light, sans-serif;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #000;
+}
+
+p img {
+    vertical-align: middle;
+}
+
+.reports-key {
+    font-weight: 600;
+}
+
+.timeline {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    margin-right: -600px;
+    overflow: visible;
+}
+
+.timeline.fixed {
+    position: fixed;
+    top: 60px;
+}
+
+.timeline .line {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 1px;
+    height: 100px;
+    background-color: #323C5C;
+}
+
+.timeline ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    line-height: 36px;
+    list-style: none;
+}
+
+.timeline .bar {
+    position: absolute;
+    top: 0;
+    right: -3px;
+    z-index: 2;
+    margin-top: -3px;
+    width: 7px;
+    height: 7px;
+    background-color: #323C5C;
+    border: 1px solid #323C5C;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: top 0.5s;
+    -moz-transition: top 0.5s;
+    -o-transition: top 0.5s;
+    transition: top 0.5s;
+}
+
+.node {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    padding-right: 16px;
+    width: auto;
+    color: #323C5C;
+    overflow: visible;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.node.active {
+    font-size: 16px;
+}
+
+.node.active,
+.node:hover {
+    color: #6f768c;
+}
+
+.node.active:after {
+    background-color: #6f768c;
+    border: 1px solid #6f768c;
+}
+
+.node:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -3px;
+    z-index: 1;
+    margin-top: -3px;
+    width: 7px;
+    height: 7px;
+    background-color: #ffffff;
+    border: 1px solid #323C5C;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.node span {
+    transition: all 0.4s ease-out;
+    padding: 10px;
+    white-space: nowrap;
+    font-weight: 200;
+}

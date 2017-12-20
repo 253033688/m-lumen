@@ -1,0 +1,89 @@
+@import "../../common/pc/css/common.css";
+
+ .header {
+    position: relative;
+    color: #ffffff;
+    background: #323C5C;
+}
+
+ .main .container {
+    width: 800px;
+}
+
+ .logo {
+    margin: 6em auto 3em;
+}
+
+ .logo p {
+    text-align: center;
+}
+
+ .logo img {
+    width: 160px;
+    height: 160px;
+}
+
+ .logo p.logo-name {
+    margin: 0;
+    line-height: 2em;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 24px;
+}
+
+ .introduction {
+    padding: 1em 0 0;
+    line-height: 20px;
+    border-top: 1px solid #C0C0C0;
+    font-size: 16px;
+}
+
+ .intro p {
+    font-family: Roboto-Light, sans-serif;
+    text-indent: 2em;
+}
+
+ .btn-default {
+    display: block;
+    margin: 60px auto 0;
+    padding: 0.5em 0;
+    width: 600px;
+    border-radius: 2px;
+    font-family: Roboto-Regular, sans-serif;
+    color: #ffffff;
+    background: #404C72;
+}
+
+ .disabled {
+    display: block;
+    margin-top: 2em;
+    padding: 0.5em 0;
+    border-radius: 2px;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 16px;
+    color: #999;
+    border: 1px solid #999;
+    background-color: #eee;
+    cursor: not-allowed;
+}
+
+ .btn.disabled:active {
+    cursor: not-allowed;
+    background-color: #ffffff;
+}
+
+ .btn-reverse {
+    display: block;
+    margin: 15px auto 80px;
+    padding: 0.5em 0;
+    width: 600px;
+    border-radius: 2px;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 16px;
+    border: 1px solid #404C72;
+    color: #404C72;
+    background: #ffffff;
+}
+
+ .btn:active {
+    background: #4B5984;
+}
